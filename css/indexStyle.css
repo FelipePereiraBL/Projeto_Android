@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid02';
+    src: url('../fonts/idroid.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #84E1AD;
+    margin: auto;
+}
+
+/*Cabeçalho*/
+header{
+    text-align: center;
+    background-image: linear-gradient(rgb(57, 205, 123),rgb(26, 92, 56));
+    color: white;   
+    margin-top: -20px;
+}
+/* Titulo do cabeçalho */
+header>h1{
+    padding-top: 15px; 
+    font-weight: bold;
+}
+
+/* Menu com links */
+nav,nav>a{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+/* Conteudo principal */
+main{
+    background-color: #ffffff;   
+    margin: 0px 180px 20px 180px; 
+    padding: 10px 10px 10px; 
+    box-shadow: -2px 3px 5px 2px rgb(0 0 0 / 40%);
+}
+
+/* Titulo e subtitulos no conteudo principal */
+main>h1,main>h2{
+    font-family: 'idroid02',sans-serif;
+    color: #1D5E3A;
+}
+
+/* Subtitulo no conteudo principal */
+main>h2{
+background-image: linear-gradient( to right, #C5EBD6,#fff);
+}
+
+/* Espaço inicial de cada paragrafo */
+p{
+    text-indent: 20px;
+}
+
+/* Todas as imagens na página */
+.imagem{
+    text-align: center;
+}
+
+/* Video da página */
+.video{
+    text-align: center;
+    background-color: #1A5C38;
+    margin: 5px -10px 5px -10px ;
+    padding: 20px 0px 20px 0px;
+}
+
+/* Caixa com lista de versões do android */
+article{
+    background-color: #C5EBD6;
+    margin: 30px 17px 17px 17px;
+    padding: 0px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* Titulo da caixa com lista de versões do android */
+section{
+    background-color: #2FA866;
+    color: white;
+    font-weight: bold;
+    margin: 5px -10px 5px -10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/* Div´s dentro da caixa com lista de versões do android */
+#lista{
+    display: inline-block;
+    height: 160px;
+    width: 280px;    
+}
+
+/* Rodapé */
+footer{
+    text-align: center;
+    background-color: #1A5C38;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -16px;
+}
+
+/* Palavras com links */
+.links{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links::after{
+   content: ' 🔗' ;
+}
+
